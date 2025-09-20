@@ -60,7 +60,7 @@ if(NOT nlohmann_json_FOUND)
 endif()
 
 # Define the executable
-add_executable(binance_orderbook main2.cpp)
+add_executable(binance_orderbook main.cpp)
 
 # Link libraries
 target_link_libraries(binance_orderbook
